@@ -11,6 +11,7 @@ let web3Modal;
 if (typeof window !== "undefined") {
   console.log(1)
 }
+
 const App = () => {
   const [myAddress, setMyaddress] = useState('');
   const [walletStatus, setWalletStatus] = useState(false);
@@ -34,7 +35,7 @@ const App = () => {
           <div className={`px-lg-5 ${styles.text}`}>Lab Monsters created by Starter Labs</div>
           <div className="d-flex justify-content-center">
             <div className={styles.mainButton}>
-                <button>CONNECT WALLET</button>
+                <button >CONNECT WALLET</button>
             </div>
           </div>
         </div>
