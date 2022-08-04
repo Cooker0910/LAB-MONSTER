@@ -30,8 +30,8 @@ const App = () => {
           />
         </div>
         <div className={`d-flex flex-column ${styles.rightpan}`}>
-          <h1 className={styles.title}>Lab Monster</h1>
-          {/* <div className={styles.text}>6969 Cuddle Bears dominating in the bear market. First 4000 free, then 2969 for 0.005 each. 3 mints per wallet</div> */}
+          <h1 className={styles.title}>LAB MONSTER</h1>
+          <div className={`px-lg-5 ${styles.text}`}>Lab Monsters created by Starter Labs</div>
           <div className="d-flex justify-content-center">
             <div className={styles.mainButton}>
                 <button>CONNECT WALLET</button>
