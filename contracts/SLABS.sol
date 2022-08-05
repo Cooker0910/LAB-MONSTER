@@ -12,6 +12,7 @@ contract SLABS is ERC20 {
     constructor(string memory name, string memory symbol) ERC20(name, symbol) {
         _decimals = 18;
         _totalSupply = 1000000000;
+        owner = msg.sender;
     }
 
     function decimals() public view virtual override returns (uint8) {
